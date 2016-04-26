@@ -3,4 +3,7 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="friend_management">관리</string>
+    <string name="friend_plus">친구추가</string>
+    <string name="chatting_friend_management">편집</string>
 </resources>
