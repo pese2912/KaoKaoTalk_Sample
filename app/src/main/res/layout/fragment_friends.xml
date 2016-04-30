@@ -15,7 +15,7 @@
 
     <ListView
         android:layout_width="match_parent"
-        android:layout_height="478dp"
+        android:layout_height="470dp"
         android:id="@+id/friend_listView"
         android:layout_gravity="center_horizontal|bottom" />
 </FrameLayout>

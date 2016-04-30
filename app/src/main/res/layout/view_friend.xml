@@ -5,15 +5,16 @@
 
     <ImageView
         android:id="@+id/friend_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
 
     <TextView
         android:id="@+id/friend_name"
         android:text="Hello"
-        android:layout_toRightOf="@id/friend_image"
-        android:layout_alignBottom="@id/friend_image"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/friend_image"
+        android:layout_toRightOf="@+id/friend_image"
+        android:layout_toEndOf="@+id/friend_image" />
 
 </RelativeLayout>

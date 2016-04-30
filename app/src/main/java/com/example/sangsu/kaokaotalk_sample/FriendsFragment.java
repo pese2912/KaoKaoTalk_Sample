@@ -44,7 +44,6 @@ public class FriendsFragment extends Fragment {
 
         listView = (ListView)view.findViewById(R.id.friend_listView);
         mAdapter = new FriendAdapter();
-
         listView.setAdapter(mAdapter);
 
         initData(); //초기화

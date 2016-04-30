@@ -44,7 +44,7 @@ public class FriendAdapter extends BaseAdapter{
     }
     public void add(Friend f){
         items.add(f);
-        notifyDataSetChanged();//등록된 리스트엑ㅔ 변경됬다고 알림
+        notifyDataSetChanged();//등록된 리스트에게 변경됬다고 알림
     }
     public void remove(Friend f){
         items.remove(f);
