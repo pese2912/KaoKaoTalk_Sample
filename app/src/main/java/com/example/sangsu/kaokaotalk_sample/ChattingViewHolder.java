@@ -2,6 +2,7 @@ package com.example.sangsu.kaokaotalk_sample;
 
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -29,7 +30,9 @@ public class ChattingViewHolder extends RecyclerView.ViewHolder  {
        switch (viewType){
            case TYPE_SEND:
                send_message = (TextView)itemView.findViewById(R.id.chatting_message);
+
            case TYPE_RECEIVE:
+               Log.i("TYPE_RECEIVE", itemView.toString());
                receive_message = (TextView)itemView.findViewById(R.id.chatting_message);
                receive_icon = (ImageView)itemView.findViewById(R.id.image_icon);
 
@@ -37,6 +40,7 @@ public class ChattingViewHolder extends RecyclerView.ViewHolder  {
                date_message = (TextView)itemView.findViewById(R.id.chatting_message);
        }
     }
+
 
     public void setDate(Date d) {
         date_message.setText(d.message);
