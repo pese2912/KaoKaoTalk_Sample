@@ -6,8 +6,9 @@
         android:id="@+id/menu_1"
         android:title="@string/chatting_friend_management"
         android:orderInCategory="1"
-
         app:showAsAction="ifRoom|collapseActionView"
         app:actionLayout="@layout/menu_layout"
         />
+
+
 </menu>

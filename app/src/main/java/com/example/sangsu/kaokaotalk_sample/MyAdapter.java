@@ -30,7 +30,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
-
         holder.setTitle(items.get(position));
     }
 

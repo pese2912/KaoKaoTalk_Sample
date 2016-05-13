@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     FragmentTabHost tabHost;
     Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
